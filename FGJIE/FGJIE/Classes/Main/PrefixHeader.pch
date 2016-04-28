@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  FGJIE
+//
+//  Created by chfg on 16/4/28.
+//  Copyright © 2016年 chfg. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#ifdef __OBJC__
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+/*****自己分类相关*********/
+#import "CategoryFG.h"
+
+
+/*****第三方框架相关*********/
+
+
+/*****调试相关*********/
+#ifdef DEBUG  // 调试状态时，打开log功能
+#define RMBLog(...) NSLog(__VA_ARGS__)
+#else  // 发布状态，关闭LOG功能
+#define RMBLog(...)
+#endif
+
+
+// 颜色
+#define RMBColor(r,g,b) （[UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0])
+
+#define globalColor ([UIColor colorWithRed:0/255.0 green:166/255.0 blue:237/255.0 alpha:1.0])
+
+#define kScreemWidth ([UIScreen mainScreen].bounds.size.width)
+#define kScreemHeight ([UIScreen mainScreen].bounds.size.height)
+
+#endif /* PrefixHeader_pch */
+
+#endif

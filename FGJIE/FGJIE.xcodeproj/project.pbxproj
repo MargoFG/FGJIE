@@ -12,6 +12,19 @@
 		F5539B011CD254DF00A1F166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5539AFB1CD254DF00A1F166 /* Assets.xcassets */; };
 		F5539B021CD254DF00A1F166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5539AFC1CD254DF00A1F166 /* LaunchScreen.storyboard */; };
 		F5539B031CD254DF00A1F166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539AFE1CD254DF00A1F166 /* main.m */; };
+		F5539B1D1CD2581500A1F166 /* FGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B1C1CD2581500A1F166 /* FGTabBarController.m */; };
+		F5539B201CD2582A00A1F166 /* FGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B1F1CD2582A00A1F166 /* FGNavigationController.m */; };
+		F5539B231CD2584600A1F166 /* FGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B221CD2584600A1F166 /* FGTabBar.m */; };
+		F5539B361CD25DDE00A1F166 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B271CD25DDE00A1F166 /* NSArray+Log.m */; };
+		F5539B371CD25DDE00A1F166 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B291CD25DDE00A1F166 /* NSString+Hash.m */; };
+		F5539B381CD25DDE00A1F166 /* UIButton+FG.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B2B1CD25DDE00A1F166 /* UIButton+FG.m */; };
+		F5539B391CD25DDE00A1F166 /* UIColor+FG.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B2D1CD25DDE00A1F166 /* UIColor+FG.m */; };
+		F5539B3A1CD25DDE00A1F166 /* UIImage+FG.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B2F1CD25DDE00A1F166 /* UIImage+FG.m */; };
+		F5539B3E1CD25DDE00A1F166 /* UIView+FG.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B351CD25DDE00A1F166 /* UIView+FG.m */; };
+		F5539B411CD2641900A1F166 /* FGEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B401CD2641900A1F166 /* FGEssenceViewController.m */; };
+		F5539B441CD2645200A1F166 /* FGNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B431CD2645200A1F166 /* FGNewViewController.m */; };
+		F5539B4A1CD2647800A1F166 /* FGMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B491CD2647800A1F166 /* FGMeViewController.m */; };
+		F5539B4D1CD2649F00A1F166 /* FGFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5539B4C1CD2649F00A1F166 /* FGFriendTrendsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,34 @@
 		F5539AFB1CD254DF00A1F166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5539AFD1CD254DF00A1F166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5539AFE1CD254DF00A1F166 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5539B1B1CD2581500A1F166 /* FGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTabBarController.h; sourceTree = "<group>"; };
+		F5539B1C1CD2581500A1F166 /* FGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTabBarController.m; sourceTree = "<group>"; };
+		F5539B1E1CD2582A00A1F166 /* FGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGNavigationController.h; sourceTree = "<group>"; };
+		F5539B1F1CD2582A00A1F166 /* FGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGNavigationController.m; sourceTree = "<group>"; };
+		F5539B211CD2584600A1F166 /* FGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTabBar.h; sourceTree = "<group>"; };
+		F5539B221CD2584600A1F166 /* FGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTabBar.m; sourceTree = "<group>"; };
+		F5539B241CD25D9800A1F166 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F5539B251CD25DDE00A1F166 /* CategoryFG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryFG.h; sourceTree = "<group>"; };
+		F5539B261CD25DDE00A1F166 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		F5539B271CD25DDE00A1F166 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		F5539B281CD25DDE00A1F166 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		F5539B291CD25DDE00A1F166 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		F5539B2A1CD25DDE00A1F166 /* UIButton+FG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FG.h"; sourceTree = "<group>"; };
+		F5539B2B1CD25DDE00A1F166 /* UIButton+FG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FG.m"; sourceTree = "<group>"; };
+		F5539B2C1CD25DDE00A1F166 /* UIColor+FG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FG.h"; sourceTree = "<group>"; };
+		F5539B2D1CD25DDE00A1F166 /* UIColor+FG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FG.m"; sourceTree = "<group>"; };
+		F5539B2E1CD25DDE00A1F166 /* UIImage+FG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FG.h"; sourceTree = "<group>"; };
+		F5539B2F1CD25DDE00A1F166 /* UIImage+FG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FG.m"; sourceTree = "<group>"; };
+		F5539B341CD25DDE00A1F166 /* UIView+FG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FG.h"; sourceTree = "<group>"; };
+		F5539B351CD25DDE00A1F166 /* UIView+FG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FG.m"; sourceTree = "<group>"; };
+		F5539B3F1CD2641900A1F166 /* FGEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGEssenceViewController.h; sourceTree = "<group>"; };
+		F5539B401CD2641900A1F166 /* FGEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGEssenceViewController.m; sourceTree = "<group>"; };
+		F5539B421CD2645200A1F166 /* FGNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGNewViewController.h; sourceTree = "<group>"; };
+		F5539B431CD2645200A1F166 /* FGNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGNewViewController.m; sourceTree = "<group>"; };
+		F5539B481CD2647800A1F166 /* FGMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGMeViewController.h; sourceTree = "<group>"; };
+		F5539B491CD2647800A1F166 /* FGMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGMeViewController.m; sourceTree = "<group>"; };
+		F5539B4B1CD2649F00A1F166 /* FGFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGFriendTrendsViewController.h; sourceTree = "<group>"; };
+		F5539B4C1CD2649F00A1F166 /* FGFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGFriendTrendsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +105,10 @@
 		F5539AF51CD254DF00A1F166 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F5539B041CD256B000A1F166 /* JingHua(精华) */,
+				F5539B091CD256BC00A1F166 /* ZuiXin(最新) */,
+				F5539B0E1CD256C600A1F166 /* GuanZhu(关注) */,
+				F5539B131CD256CE00A1F166 /* Me(我) */,
 				F5539AF61CD254DF00A1F166 /* Main */,
 			);
 			path = Classes;
@@ -72,8 +117,12 @@
 		F5539AF61CD254DF00A1F166 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				F5539B1A1CD257B400A1F166 /* MainFrame(主框架) */,
+				F5539B181CD2575900A1F166 /* Category */,
+				F5539B191CD2575900A1F166 /* Tool */,
 				F5539AF71CD254DF00A1F166 /* AppDelegate.h */,
 				F5539AF81CD254DF00A1F166 /* AppDelegate.m */,
+				F5539B241CD25D9800A1F166 /* PrefixHeader.pch */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -86,6 +135,215 @@
 				F5539AFE1CD254DF00A1F166 /* main.m */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F5539B041CD256B000A1F166 /* JingHua(精华) */ = {
+			isa = PBXGroup;
+			children = (
+				F5539B051CD256B000A1F166 /* Controller */,
+				F5539B061CD256B000A1F166 /* Model */,
+				F5539B071CD256B000A1F166 /* Other */,
+				F5539B081CD256B000A1F166 /* View */,
+			);
+			name = "JingHua(精华)";
+			path = JingHua;
+			sourceTree = "<group>";
+		};
+		F5539B051CD256B000A1F166 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5539B3F1CD2641900A1F166 /* FGEssenceViewController.h */,
+				F5539B401CD2641900A1F166 /* FGEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5539B061CD256B000A1F166 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5539B071CD256B000A1F166 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F5539B081CD256B000A1F166 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5539B091CD256BC00A1F166 /* ZuiXin(最新) */ = {
+			isa = PBXGroup;
+			children = (
+				F5539B0A1CD256BC00A1F166 /* Controller */,
+				F5539B0B1CD256BC00A1F166 /* Model */,
+				F5539B0C1CD256BC00A1F166 /* Other */,
+				F5539B0D1CD256BC00A1F166 /* View */,
+			);
+			name = "ZuiXin(最新)";
+			path = ZuiXin;
+			sourceTree = "<group>";
+		};
+		F5539B0A1CD256BC00A1F166 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5539B421CD2645200A1F166 /* FGNewViewController.h */,
+				F5539B431CD2645200A1F166 /* FGNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5539B0B1CD256BC00A1F166 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5539B0C1CD256BC00A1F166 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F5539B0D1CD256BC00A1F166 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5539B0E1CD256C600A1F166 /* GuanZhu(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				F5539B0F1CD256C600A1F166 /* Controller */,
+				F5539B101CD256C600A1F166 /* Model */,
+				F5539B111CD256C600A1F166 /* Other */,
+				F5539B121CD256C600A1F166 /* View */,
+			);
+			name = "GuanZhu(关注)";
+			path = GuanZhu;
+			sourceTree = "<group>";
+		};
+		F5539B0F1CD256C600A1F166 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5539B4B1CD2649F00A1F166 /* FGFriendTrendsViewController.h */,
+				F5539B4C1CD2649F00A1F166 /* FGFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5539B101CD256C600A1F166 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5539B111CD256C600A1F166 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F5539B121CD256C600A1F166 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5539B131CD256CE00A1F166 /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				F5539B141CD256CE00A1F166 /* Controller */,
+				F5539B151CD256CE00A1F166 /* Model */,
+				F5539B161CD256CE00A1F166 /* Other */,
+				F5539B171CD256CE00A1F166 /* View */,
+			);
+			name = "Me(我)";
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F5539B141CD256CE00A1F166 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5539B481CD2647800A1F166 /* FGMeViewController.h */,
+				F5539B491CD2647800A1F166 /* FGMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5539B151CD256CE00A1F166 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5539B161CD256CE00A1F166 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F5539B171CD256CE00A1F166 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5539B181CD2575900A1F166 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F5539B251CD25DDE00A1F166 /* CategoryFG.h */,
+				F5539B261CD25DDE00A1F166 /* NSArray+Log.h */,
+				F5539B271CD25DDE00A1F166 /* NSArray+Log.m */,
+				F5539B281CD25DDE00A1F166 /* NSString+Hash.h */,
+				F5539B291CD25DDE00A1F166 /* NSString+Hash.m */,
+				F5539B2A1CD25DDE00A1F166 /* UIButton+FG.h */,
+				F5539B2B1CD25DDE00A1F166 /* UIButton+FG.m */,
+				F5539B2C1CD25DDE00A1F166 /* UIColor+FG.h */,
+				F5539B2D1CD25DDE00A1F166 /* UIColor+FG.m */,
+				F5539B2E1CD25DDE00A1F166 /* UIImage+FG.h */,
+				F5539B2F1CD25DDE00A1F166 /* UIImage+FG.m */,
+				F5539B341CD25DDE00A1F166 /* UIView+FG.h */,
+				F5539B351CD25DDE00A1F166 /* UIView+FG.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F5539B191CD2575900A1F166 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F5539B1A1CD257B400A1F166 /* MainFrame(主框架) */ = {
+			isa = PBXGroup;
+			children = (
+				F5539B1B1CD2581500A1F166 /* FGTabBarController.h */,
+				F5539B1C1CD2581500A1F166 /* FGTabBarController.m */,
+				F5539B1E1CD2582A00A1F166 /* FGNavigationController.h */,
+				F5539B1F1CD2582A00A1F166 /* FGNavigationController.m */,
+				F5539B211CD2584600A1F166 /* FGTabBar.h */,
+				F5539B221CD2584600A1F166 /* FGTabBar.m */,
+			);
+			name = "MainFrame(主框架)";
+			path = MainFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,6 +372,7 @@
 		F5539AD31CD2545E00A1F166 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FG;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chfg;
 				TargetAttributes = {
@@ -159,7 +418,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5539B371CD25DDE00A1F166 /* NSString+Hash.m in Sources */,
+				F5539B201CD2582A00A1F166 /* FGNavigationController.m in Sources */,
+				F5539B4A1CD2647800A1F166 /* FGMeViewController.m in Sources */,
+				F5539B411CD2641900A1F166 /* FGEssenceViewController.m in Sources */,
+				F5539B381CD25DDE00A1F166 /* UIButton+FG.m in Sources */,
 				F5539B031CD254DF00A1F166 /* main.m in Sources */,
+				F5539B3E1CD25DDE00A1F166 /* UIView+FG.m in Sources */,
+				F5539B3A1CD25DDE00A1F166 /* UIImage+FG.m in Sources */,
+				F5539B1D1CD2581500A1F166 /* FGTabBarController.m in Sources */,
+				F5539B391CD25DDE00A1F166 /* UIColor+FG.m in Sources */,
+				F5539B361CD25DDE00A1F166 /* NSArray+Log.m in Sources */,
+				F5539B231CD2584600A1F166 /* FGTabBar.m in Sources */,
+				F5539B4D1CD2649F00A1F166 /* FGFriendTrendsViewController.m in Sources */,
+				F5539B441CD2645200A1F166 /* FGNewViewController.m in Sources */,
 				F5539AFF1CD254DF00A1F166 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +476,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Classes/Main/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -245,6 +518,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Classes/Main/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -262,6 +536,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FGJIE/Classes/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = FGJIE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chfg.FGJIE;
@@ -273,6 +550,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FGJIE/Classes/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = FGJIE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chfg.FGJIE;
